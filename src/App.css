@@ -1,38 +1,108 @@
 .App {
-  text-align: center;
+  text-align:left;
+  padding : 20px;
 }
 
-.App-logo {
-  height: 40vmin;
+.logo {
+  height:40px;
   pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width :40px;
+  padding :10px
 }
 
-.App-link {
-  color: #61dafb;
+.header{
+  color:black;
+  font-weight:bold;
+  display: flex; 
+ font-size :20px;
+ align-items: center;
+box-shadow: 2px 4px 100px 0px rgba(0, 0, 0, 0.2);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.photo-header {
+  display: flex;
+  flex-direction: column;  /* STACK vertically */
+  align-items: center;     /* center them horizontally (optional) */
+  gap: 20px;               /* spacing between images */
+  margin-top: 140px;
+  float:right;
+}
+
+.hannie,
+.cheoli {
+  width: 82px;
+  height: 128px;
+  border-radius: 300px;
+}
+.header2 {
+   display: flex;
+  flex-direction: column;  /* STACK vertically */
+  align-items: center;     /* center them horizontally (optional) */
+  gap: 20px;               /* spacing between images */
+  float:right;
+  margin-top: 80px;
+  margin-right :-2%;
+
+} 
+.wonwoo,
+.mingyu {
+  height : 128px;
+  width : 82px;
+  border-radius :300px;
+  margin-right : 40px;
+}
+.header3{
+  display: flex;
+  flex-direction: column;  /* STACK vertically */
+  align-items: center;     /* center them horizontally (optional) */
+  gap: 20px;               /* spacing between images */
+  margin-top: 140px;
+  float:right;
+  padding :5px;
+} 
+.woozi,
+.josh{
+  width: 82px;
+  height: 128px;
+  border-radius: 300px;
+}
+
+.header4{
+   display: flex;
+  flex-direction: column;  /* STACK vertically */
+  align-items: center;     /* center them horizontally (optional) */
+  gap: 20px;               /* spacing between images */
+  float:right;
+  margin-top: 80px;
+  margin-right :-2%;
+}
+.boo,
+.bonon{
+  height : 128px;
+  width : 82px;
+  border-radius :300px;
+  margin-right : 40px;
+}
+.header5{
+  display: flex;
+  flex-direction: column;  /* STACK vertically */
+  align-items: center;     /* center them horizontally (optional) */
+  gap: 20px;               /* spacing between images */
+  float:right;
+  margin-top: 150px;
+  margin-right :-2%;
+}
+.jun{
+  height : 128px;
+  width : 82px;
+  border-radius :300px;
+  margin-right : 40px;
+}
+
+.sebong {
+  margin-top :450px;
+}
+.h1{
+  align-items:left;
 }
